@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    text-align: left !important;
+}
+
+
+/* Navigation bar Style start */
+.navbar {
+    background-color: #285a94 !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+    max-width: 100% !important;
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+.req-btn {
+    background-color: black; border: none !important;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+/* Navigation bar Style Ends */
+
+
+
+
+
+/* Header */
+.head {
+    background-color: navy !important;
+}
+.head h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Montserrat', serif !important;
+}
+/* Header */
+
+
+
+.parallax-3 {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect-3 {
+    height: 45vh;
+    background-image: url('img/network.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.parallax-4 {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect-4 {
+    height: 45vh;
+    background-image: url('img/journey-dash-2jpg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.parallax-5 {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect-5 {
+    height: 45vh;
+    background-image: url('img/journey-dash-removebg-preview.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.parallax-6 {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect-6 {
+    height: 45vh;
+    background-image: url('img/team.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+/* PARALLAX */
+
+
+
+
+.aboutus-head h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+.aboutus-head p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+
+
+
+
+
+/* Footer Style Starts herw */
+.footer {
+    background-color: #285a94;
+}
+
+.footer h5{
+    text-decoration: none;
+    color: ghostwhite !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px !important;
+}
+
+.footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 14px !important;
+}
+
+.footer a:hover{
+    color: red !important;
+}
+/* Footer style ends here */
+
+
+
+
+.socials {
+    background-color: #285a94;
+}
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px) {
+    
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    
+    body {
+        overflow-x: hidden !important; 
+     
+       
+    }
+
+    p {
+        text-align: justify !important;
+        font-size: 1rem !important;
+        line-height: 25px !important;
+    }
+    
+    h1 {
+        font-size: 23px !important;
+    }
+
+
+    
+#container {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#container h3 {
+    font-size: 22px !important;
+    line-height: 27px !important;
+}
+
+#container p {
+    font-size: 17px;
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify !important;
+
+
+}
+
+
+#span::before {
+    content: 'show more ...';
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+#container.active p {
+    display: block;
+
+}
+
+#container.active #span::before {
+    content: 'show less';
+
+}
+
+
+#container-2 {
+    border-radius: 4px;
+    padding: 10px;
+  
+}
+
+#container-2 h3 {
+    font-size: 22px !important;
+    line-height: 27px !important;
+}
+
+#container-2 p {
+    font-size: 17px;
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify !important;
+
+
+}
+
+
+#span-2::before {
+    content: 'show more ...';
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+#container-2.active p {
+    display: block;
+
+}
+
+#container-2.active #span::before {
+    content: 'show less';
+
+}
+
+
+
+    /* PARALLAX */
+ 
+
+    .parallax-3 {
+        height: 20vh;
+        background-color: black;
+        position: relative;
+    }
+    
+    .parallax-effect-3 {
+        height: 20vh;
+        background-image: url('img/network.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+    
+    .parallax-4 {
+        height: 20vh;
+        background-color: black;
+        position: relative;
+    }
+    
+    .parallax-effect-4 {
+        height: 20vh;
+        background-image: url('img/journey-dash-2jpg.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+    
+    .parallax-5 {
+        height: 20vh;
+        background-color: black;
+        position: relative;
+    }
+    
+    .parallax-effect-5 {
+        height: 20vh;
+        background-image: url('img/journey-dash-removebg-preview.png');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+    
+    .parallax-6 {
+        height: 20vh;
+        background-color: black;
+        position: relative;
+    }
+    
+    .parallax-effect-6 {
+        height: 20vh;
+        background-image: url('img/team.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+    
+
+    /* PARALLAX */
+
+
+.aboutus-head h1 {
+    font-size: 20px !important;
+    line-height: 27px !important;
+}
+
+.aboutus-head p {
+    font-size: 14px !important;
+   
+}
+    
+
+.footer {
+    padding: 20px;
+}
+
+.add {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 20px;
+}
+
+.add p {
+  
+    padding-bottom: 10px;
+}
+       
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}

@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+
+
+
+/* Navigation bar Style start */
+.navbar {
+    background-color: #285a94 !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+    max-width: 100% !important;
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+.req-btn {
+    background-color: black; 
+    border: 1px solid lightgray !important;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+/* Navigation bar Style Ends */
+
+
+
+
+
+
+
+
+/* Header Style  */
+.header-container {
+    height: 80vh !important;
+    position: relative !important;
+}
+
+.header-container img{
+    opacity: 0.3 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    min-width: 100% !important;
+    height: 80vh;
+}
+
+.header-text {
+    position: absolute !important;
+    top: 0 !important;
+} 
+
+.header-container h1 {
+    color: white !important;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 50px !important;
+}
+
+.header-container p {
+    color: ghostwhite;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Headter Style Ends */
+
+
+
+
+
+
+
+/* Unveiling */
+.unveiling p {
+    font-size: 23px !important;
+    line-height: 40px !important;
+}
+
+.unveiling h3 {
+    font-size: 35px !important;
+    font-weight: bold !important;
+}
+/* Unveiling */
+
+
+
+/* localized  */
+.localize {
+    background-color: navy;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.localize p {
+    font-size: 23px;
+    line-height: 40px;
+}
+.localize h3 {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+/* localized  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IN HOUSE/EXTERNAL */
+.in-house h3 {
+    font-size: 30px;
+    border-left: 9px solid red;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.in-house p {
+    font-size: 20px;
+    text-align: justify; 
+    line-height: 40px;
+}
+/*  */
+
+
+
+
+
+.dial {
+    background-color: navy;
+}
+.dial p {
+    font-size: 17px;
+}
+
+.dial h3 {
+    line-height: 40px;
+}
+
+.five-pillar i {
+    color: red;
+}
+
+.five-pillar h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+.dial-group {
+    background-color: white;
+    color: navy;
+}
+
+.dial-group h3 {
+    color: navy;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dial-group i {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+/* Footer Style Starts herw */
+.footer {
+    background-color: #285a94;
+}
+
+.footer h5{
+    text-decoration: none;
+    color: ghostwhite !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px !important;
+}
+
+.footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 14px !important;
+}
+
+.footer a:hover{
+    color: red !important;
+}
+/* Footer style ends here */
+
+
+
+
+.socials {
+    background-color: #285a94;
+}
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    
+    body {
+        overflow-x: hidden !important; 
+     
+       
+    }
+
+    p {
+        text-align: left !important;
+        font-size: 1rem !important;
+        line-height: 25px !important;
+    }
+    
+    h1 {
+        font-size: 23px !important;
+    }
+
+/* Header Style  */
+.header-container {
+    height: 80vh !important;
+    position: relative !important;
+}
+
+.header-container img{
+    opacity: 0.3 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    min-width: 100% !important;
+    height: 80vh;
+}
+
+.header-text {
+    position: absolute !important;
+    top: 0 !important;
+} 
+
+.header-container h1 {
+    color: white !important;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+}
+
+.header-container p {
+    color: ghostwhite;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+    .unveiling h3 {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    .unveiling p {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .localize h3 {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    .dial h3 {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    .tailor h3 {
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+
+    .tailor p {
+        font-size: 14px !important;
+        text-align: justify !important;
+    }
+
+    .dial-group h3 {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+
+    .footer {
+        padding: 20px;
+    }
+    
+    .add {
+        display: flex !important;
+        flex-direction: column !important;
+        padding-top: 20px;
+    }
+    
+    .add div {
+        padding-left: 20px;
+    }
+       
+    
+    .add p {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+      
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+   
+}

@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+
+/* Navigation bar Style start */
+.navbar {
+    background-color: #285a94 !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+    max-width: 100% !important;
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+.req-btn {
+    background-color: black; border: none !important;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+/* Navigation bar Style Ends */
+
+
+
+
+
+
+/* Header Style  */
+.header-container {
+    height: 60vh !important;
+    position: relative !important;
+}
+
+.header-container img{
+    opacity: 0.4 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    min-width: 100% !important;
+    height: 60vh;
+}
+
+.header-text {
+    position: absolute !important;
+    top: 0 !important;
+} 
+
+.header-container h1 {
+    color: white !important;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 60px !important;
+}
+
+.header-container p {
+    color: ghostwhite;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Headter Style Ends */
+
+
+
+/* Our Services Starts Style Here */
+.our-srv {
+    background-color: navy;
+}
+
+.card {
+    background-color: white !important;
+    border: 1px solid lightgray !important;
+}
+
+.card p {
+    font-size: 20px;
+    text-align: center;
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    display: flex !important;
+    align-items: center !important;
+    height: 100%;
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+.card:hover {
+    transform: translateY(-0.4rem);
+    transition: .4s;
+  }
+  
+
+.let-help {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.view-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: gray !important;
+    transition: 0.5s;
+}
+
+/* Our Services Starts Ends Here */
+
+
+
+/* Footer Style Starts herw */
+.footer {
+    background-color: #285a94;
+}
+
+
+.footer h5{
+    text-decoration: none;
+    color: ghostwhite !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px !important;
+}
+
+.footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 14px !important;
+}
+
+.footer a:hover{
+    color: red !important;
+}
+/* Footer style ends here */
+
+
+
+
+.socials {
+    background-color: #285a94;
+}
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px) {
+
+    .header-container {
+        height: 40vh !important;
+        position: relative !important;
+    }
+    
+    .header-container img{
+        opacity: 0.4 !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        object-fit: cover !important;
+        min-width: 100% !important;
+        height: 40vh;
+    }
+    
+    .header-text {
+        position: absolute !important;
+        top: 0 !important;
+    } 
+    
+    .header-container h1 {
+        color: white !important;
+        font-family: 'Roboto Slab', serif !important;
+        font-size: 35px !important;
+        margin-left: 30px !important;
+    }
+    
+    .header-container p {
+        color: ghostwhite;
+        font-size: 14px;
+        line-height: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    
+.card {
+    background-color: white !important;
+    border: 1px solid lightgray !important;
+    height: 300px !important;
+    max-width: 100%;
+  
+}
+
+.card p {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex !important;
+    align-items: center !important;
+    height: 100%;
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: 200px  !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+}
+  
+.footer {
+    padding: 20px;
+}
+
+.add {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 20px;
+}
+
+.add p {
+  
+    padding-bottom: 10px;
+}
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}

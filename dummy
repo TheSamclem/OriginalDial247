@@ -1,0 +1,407 @@
+<div class="row d-flex justify-content-around g-4 mt-4">
+
+                <!--Service One  -->
+                <div class="col-lg-12 serv-btn justify-content-around">
+
+                    <div class="row d-flex justify-content-around g-4">
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="">
+                                <p  class=" btn-dark py-3 d-flex justify-content-center">
+                                    24/7 Monitoring by Our Control Room Incident Response
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="">
+                                <p class="btn-dark py-3 d-flex justify-content-center">
+                                    Investigations, Litigation and Forensics
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="">
+                             <p class="btn-dark py-3 d-flex justify-content-center">
+                                ESG and Sustainable Business
+                             </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="card-body ">
+                                <p class=" btn-dark py-3 d-flex justify-content-center">
+                                    Training and Development Solutions
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  
+
+                </div>
+        
+                
+              
+            </div>
+
+            <!-- Service card -->
+            <div class="row d-flex justify-content-around g-4 mt-4">
+
+                <!--Service One  -->
+                <div class="col-lg-12 serv-btn justify-content-around">
+
+                    <div class="row d-flex justify-content-around g-4">
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="card-body ">
+                                <p  class=" btn-dark py-3 d-flex justify-content-center">
+                                    Threat and risk assessment
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="card-body ">
+                                <p class="btn-dark py-3 d-flex justify-content-center">
+                                    Journey Management
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="card-body ">
+                             <p class="btn-dark py-3 d-flex justify-content-center">
+                                Design and Installation of Security Systems
+                             </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-two col-lg-3" style="width: 18rem;">
+                            <div class="card-body ">
+                                <p class=" btn-dark py-3 d-flex justify-content-center">
+                                    Executive Protection/VIP Protection
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  
+
+                </div>
+        
+                
+              
+            </div>
+
+            <!--Service One  -->
+            <div class="col-lg-12 serv-btn justify-content-around pt-5">
+
+                <div class="row d-flex justify-content-around g-4">
+
+                    <div class="card-two col-lg-12 " style="width: 18rem;">
+                        <div class="card-body ">
+                            <p  class=" btn-dark py-4 d-flex justify-content-center">
+                                Critical infrastructure Protection
+                            </p>
+                        </div>
+                    </div>
+            
+                </div>
+      
+                </div>
+        
+
+
+//////
+<section class="our-srv p-4  d-block d-sm-none" id="services">
+    <div class="container py-5 ">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Services Header -->
+                <h2  data-aos="slide-down">
+                    Our Services
+                </h2>
+
+            </div>
+
+        </div>
+
+        <!-- Services Card -->
+        <div class="row d-flex justify-content-around g-4 mt-4">
+
+            <!--Service One  -->
+            <div class="col-lg-12 serv-btn justify-content-around">
+
+                <div class="row d-flex justify-content-around g-4">
+                    <div class="card-two col-lg-3 " style="width: 18rem;">
+                        <div class="card-body ">
+                            <p  class=" btn-dark py-3 d-flex justify-content-center">
+                                Security Risk Management
+
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card-two col-lg-3" style="width: 18rem;">
+                        <div class="card-body ">
+                            <p class="btn-dark py-3 d-flex justify-content-center">
+                                Operational and Protective Security
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-two col-lg-3" style="width: 18rem;">
+                        <div class="card-body ">
+                         <p class="btn-dark py-3 d-flex justify-content-center">
+                            Organisational Resilience
+
+                         </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card-two col-lg-3" style="width: 18rem;">
+                        <div class="card-body ">
+                            <p class=" btn-dark py-3 d-flex justify-content-center">
+                                Embedded Consulting Services
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              
+
+            </div>
+    
+            
+          
+        </div>
+
+
+
+///
+
+Security Risk Management
+
+Operational and Protective Security
+
+Organisational Resilience
+
+Embedded Consulting Services
+
+24/7 Monitoring by Our Control Room Incident Response
+
+Investigations, Litigation and Forensics
+
+ESG and Sustainable Business
+
+Training and Development Solutions
+
+Threat and risk assessment
+
+Journey Management
+
+Design and Installation of Security Systems
+
+Executive Protection/VIP Protection
+
+Critical infrastructure Protection
+
+////
+
+<div class="container py-4">
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-6">
+            <h2 style="text-align: center;">
+                Contact Us
+            </h2>
+
+        </div>
+    </div>
+
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 pb-4">
+            <h4 style="text-align: center;">
+                Call +2347045774783
+                or fill in the form to  <br>speak with us today.
+            </h4>
+
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-12 d-flex justify-content-center">
+
+            <div class="row p-4 shadow-lg col-lg-5" style="background-color: rgb(241, 241, 241);">
+
+                <form>
+
+                    <div>
+                        <label for="questions" class="form-label d-flex align-items-start">Message:</label>
+                        <textarea id="myTextArea" rows="4"></textarea>
+                    </div>
+
+                    <div class="my-3">
+                      <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Your Firt Name">
+                    </div>
+
+
+
+                    <div class="my-3">
+                      <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Your Last Name">
+                    </div>
+
+                    <div class="my-3">
+                        <input type="number" class="form-control" id="exampleInputEmail1"  placeholder="&#9742 Your Telephone No *">
+                    </div>
+
+                    
+                    <div class="my-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="&#128231 Your Email*">
+                    </div>
+
+
+
+
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-dark text-white d-flex">Submit</button>
+
+                    </div>
+                   
+
+                </form>
+
+
+            </div>
+
+        </div>
+   
+              
+    </div>
+</div>
+
+
+/////
+<div class="container d-flex justify-content-around">
+
+             
+    <div class="row">
+
+        <div class="col-lg-3 p-0">
+            <a href="#"><img src="img/DIAL SAFE LOGO-02.png" alt="" class="img-fluid" style="height: 120px; width: 120px;"></a>
+        </div>
+
+        <div class="col-md-3 mt-4">
+            <h5 class="pt-3 fw-bold" style="color: rgb(210, 210, 210);">Company</h5>
+            <a href="#">About</a> <br>
+            <a href="#">Careers at Dial 24/7</a> <br>
+            <a href="#">Contact Us</a> <br>
+            <a href="#">Privacy & Security</a> <br>
+        </div>
+     
+        <div class="col-md-3 mt-4">
+            <h5 class="pt-3 fw-bold" style="color:  rgb(210, 210, 210);">Deep Learning IoT and <br> Data Encryption</h5>
+            <a href="#">Deep learning IoT and Data</a> <br>
+            <a href="#">DIALSAFE</a> <br>
+            <a href="#">I-Secure</a> <br>
+            <a href="#">I-Dial</a> <br>
+            <a href="#">I-Track</a> <br>
+            <a href="#">Dial-ThreatHunter</a> <br>
+            <a href="#">InstaDial</a> <br>
+            <a href="#">Plume Model</a> <br>
+            <a href="#">Api Library</a> <br>
+        </div>
+
+        <div class="col-md-3 mt-4">
+            <div class="pt-3">
+              <div class="d-flex">
+                    <p class="me-2 fw-bold">Email -</p>
+
+                    <a href="" class="text-warning">
+                        info@dial247security.com
+                    </a>
+              </div>
+
+                <p>
+                    Plot 12, House 6, 2nd Avenue, Federal Housing Estate, Trans Amadi Ind. Layout, Rivers State PortHarcourt, Nigeria
+                </p>
+
+                <p>
+                    Tel: +2347045774783
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+////
+
+<div class="row g-4 pt-2 d-flex justify-content-center pb-3">
+
+    <div class="col-lg-3 bg-body-tertiary border-start p-5" style="text-align: center;">
+
+        <div class="d-flex align-items-center justify-content-center">
+            <span class="material-symbols-outlined fs-1">
+                volunteer_activism
+                </span>
+            <h4 class="py-3" style="line-height: 30px;">Building a Culture of Safety</h4>
+        </div>
+
+        <div>
+            <p>
+                Dial 24/7 enables you to safely and confidently manage a workforce that 
+                operates in high-risk environments. It provides real-time emergency
+                alerts when a worker fails to check in at a scheduled time.
+            </p>
+        </div>
+     
+    </div>
+
+    <div class="col-lg-3 bg-body-tertiary border-start p-5" style="text-align: center;">
+
+        <div class="d-flex align-items-center justify-content-center">
+            <span class="material-symbols-outlined fs-1">
+            </span>
+            <h4 class="py-3" style="text-align: center;">Connected Technology</h4>
+        </div>
+
+        <div>
+            <p>
+                Dial 24/7 integrates with specialist software, offering companies a centralised,
+                holistic solution for managing the safety of their workers.
+            </p>
+        </div>
+     
+    </div>
+
+    <div class="col-lg-3 bg-body-tertiary border-start p-5" style="text-align: center;">
+
+        <div class="d-flex align-items-center justify-content-center">
+            <span class="material-symbols-outlined fs-1">
+            </span>
+            <h4 class="py-3 ms-2">Onboarding</h4>
+        </div>
+
+        <div>
+            <p>
+                We know that any new system is only as good as its adoption rate – that’s 
+                why we include implementation support and an industry-leading onboarding program in our services..
+            </p>
+        </div>
+     
+    </div>
+
+</div>
+
+</div>

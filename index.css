@@ -1,0 +1,972 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: yellow;
+}
+
+/* Navigation bar Style start */
+.navbar {
+  background-color: #000080 !important;
+  border-bottom: 1px solid rgb(62, 62, 62);
+  max-width: 100% !important;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link:hover {
+  color: red rgb(79, 79, 79) !important;
+  border-bottom: 2px solid yellow;
+  transition: 0.7s;
+}
+
+.dropdown-menu {
+  overflow-y: scroll;
+  height: 300px;
+  padding: 60px 30px;
+}
+
+.dropdown-item:hover {
+  background-color: red;
+}
+
+.req-btn {
+  background-color: black;
+  border: none !important;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border: 1px solid lightgray !important;
+}
+
+.req-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.req-btn:hover {
+  background-color: rgb(92, 92, 92) !important;
+  color: black !important;
+  transform: translateY(-0.4rem);
+  transition: 0.4s;
+}
+/* Navigation bar Style Ends */
+
+/* Header Style Begins */
+.header {
+  background-color: navy;
+  color: white;
+}
+
+.header span {
+  line-height: 80px;
+}
+
+.header p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: bold;
+}
+
+#predict {
+  font-family: "Roboto Slab", serif;
+  color: cornsilk;
+  font-size: 100px;
+}
+
+#detect {
+  font-size: 78px;
+  color: cornsilk;
+  font-family: "Roboto Slab", serif;
+}
+
+#and {
+  font-size: 40px;
+  color: white;
+}
+
+#address {
+  font-size: 69px;
+  color: cornsilk;
+  font-family: "Roboto Slab", serif;
+}
+
+#threat {
+  color: rgb(209, 0, 0);
+  font-size: 68px;
+  font-weight: bold;
+}
+
+/* Header Style Ends */
+
+/* Statement Style Begins */
+.statement p {
+  font-size: 18px !important;
+  text-align: center !important;
+  line-height: 45px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+/* Statement Style Ends */
+
+/* Customer success Style starts */
+.customer-success {
+  background-color: white !important;
+}
+.customer-success h1 {
+  font-size: 50px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: navy !important;
+}
+
+.customer-p {
+  font-family: "Montserrat", sans-serif;
+  color: lightgray;
+}
+/* Customer Success style ends*/
+
+/* Inudtry Success Style Starts */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: yellow;
+}
+
+.hero h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 40px;
+  color: yellow;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.slide-row {
+  display: flex;
+  width: 3200px;
+  transition: 0.5s;
+}
+
+.slide-col {
+  width: 800px;
+  height: 400px;
+  position: relative;
+}
+
+.user-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: yellow;
+  height: 100%;
+  width: 310px !important;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.user-img img {
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.user-text {
+  background: yellow;
+  color: navy;
+  width: 520px;
+  font-family: "Montserrat", sans-serif;
+  height: 370px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 20px;
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.user-text p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.user-text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.slide-container {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indicator {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}
+
+.ind {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 4px;
+  border-radius: 15px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.indicator .active {
+  width: 45px;
+}
+
+.testimonial {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/* Industry Success Style ends*/
+
+/* Clientele Style Starts Here */
+.clientele {
+  background-color: white;
+}
+.clientele h1 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  text-transform: uppercase;
+  color: white;
+  background-color: navy !important;
+  border-radius: 5px;
+}
+
+.clientele p {
+  text-align: center !important;
+  font-size: 15px !important;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px !important;
+  color: navy !important;
+}
+
+@media (max-width: 600px) {
+  .clientele h1 {
+    width: 100%;
+  }
+}
+/* Clientele Style Ends Here */
+
+/* Our Services Starts Style Here */
+
+.services {
+  box-sizing: border-box;
+  border-top: 1px solid navy;
+  padding: 15px 0px;
+  background-color: white;
+}
+
+.services h1 {
+  text-align: center;
+  color: navy;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 30px auto;
+}
+
+#services-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+#services-list div {
+  background-color: navy;
+  height: 80px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+  border: 2px solid black;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+}
+
+#services-list div:hover {
+  transform: translateY(-0.4rem);
+  transition: 0.4s;
+}
+
+#services-list div p {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#btn-box button,
+#hidebtn button {
+  display: block;
+  padding: 15px 20px;
+  border: 1px solid grey;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: navy;
+  background-color: yellow;
+  margin: 0 auto;
+}
+#btn-box {
+  display: none;
+}
+
+#hidebtn {
+  display: none;
+}
+/*  */
+
+.btn-box button:hover {
+  background-color: #333;
+  transition: 300ms;
+}
+
+@media (max-width: 600px) {
+  #services-list {
+    height: 500px;
+    overflow: hidden;
+  }
+  #btn-box {
+    display: block;
+  }
+}
+
+/* Our Services Starts Ends Here */
+
+/* How DialSafe Works Style */
+.how-work {
+  background-color: #000080;
+}
+
+.how-work h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold !important;
+  line-height: 50px;
+}
+
+.how-work h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.how-work p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 35px;
+  font-weight: normal;
+  font-size: 1em;
+  color: white;
+}
+
+/* Elevate text style starts here */
+
+ .elevate {
+  background-color: #000080;
+}
+
+.more-kit a {
+  text-decoration: none;
+  color: white !important;
+  font-weight: 400;
+}
+
+.more-kit a:hover {
+  color: black !important;
+} 
+
+/* Elevate text style endss here */
+
+/* Youtube */
+.youtube-container {
+  width: 700px !important;
+  height: 400px !important;
+}
+/* Youtube */
+
+/* How Dial Safe works style ends */
+
+#myTextArea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  resize: none; /* Disable text area resizing */
+}
+
+/* Contact Form Style starts here */
+
+.contact-us {
+  background-color: white;
+}
+
+.contact-us h1 {
+  text-align: center;
+  color: navy;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact form {
+  width: 50%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.contact input,
+.contact textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid grey;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: #000;
+}
+
+.contact input:focus,
+.contact textarea:focus,
+.contact input:hover,
+.contact textarea:hover {
+  border: 1px solid blue;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: rgb(29, 29, 141);
+}
+
+.contact input {
+  height: 60px;
+  padding: 10px 20px;
+}
+
+.contact textarea {
+  height: 150px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+}
+
+.contact button {
+  background-color: navy;
+  text-align: center;
+  display: block;
+  color: white;
+  margin: 20px auto;
+  padding: 10px 40px;
+  font-family: "Acme", sans-serif;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.contact button:hover {
+  background-color: #333;
+  transition: 300ms;
+}
+
+@media (max-width: 740px) {
+  .contact form {
+    width: 100%;
+  }
+  .contact button {
+    width: 100%;
+  }
+  .contact input:focus,
+  .contact textarea:focus,
+  .contact input:hover,
+  .contact textarea:hover {
+    border: 2px solid blue;
+  }
+}
+
+/* .contact h2 {
+    font-size: 36px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    color: red;
+
+}
+
+.contact h3 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+} */
+/* Contact Form Style ends here */
+
+/* Footer Style Starts herw */
+footer {
+  background-color: #000080;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer-box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-box h1 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  align-items: center;
+  font-size: 0.7em;
+  justify-content: center;
+}
+
+.special {
+  line-height: 15px;
+}
+
+.footer-box div {
+  line-height: 6px;
+  text-align: justify;
+  border-radius: 5px;
+  color: yellow;
+  width: 300px;
+  box-sizing: border-box;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.footer-box div h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Footer style ends here */
+
+.last {
+  background-color: #000080;
+  height: fit-content;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.socials-container {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.last a {
+  font-size: 1em;
+  padding: 9px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.last #whatsapp:hover {
+  color: #25d366 !important;
+}
+
+.last #linkedin:hover {
+  color: #0077b5 !important;
+}
+
+.last #instagram:hover {
+  color: #e1306c !important;
+}
+
+.last #twitter:hover {
+  color: grey !important;
+}
+
+/* MOBILE DEVICES */
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .footer-box div {
+    height: auto;
+  }
+
+  .footer-box {
+    font-size: 10px;
+  }
+
+  #services-list div {
+    width: 100%;
+  }
+
+  .industry .container {
+    width: 100%;
+  }
+
+  .container-fluid {
+    background-color: navy;
+  }
+
+  #first {
+    margin-top: 30px;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  p {
+    text-align: left !important;
+    line-height: 25px !important;
+  }
+
+  h1 {
+    font-size: 23px !important;
+  }
+
+  /* Header Style starts here */
+  .header p {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    color: lightgrey;
+    font-size: 13px;
+  }
+
+  #and {
+    margin-left: 10px;
+  }
+
+  #predict,
+  #detect,
+  #address,
+  #threat {
+    font-size: 40px;
+    line-height: 40px !important;
+  }
+  /* Header Style ends here */
+
+  /* Statement style starts here */
+
+  .statement p {
+    font-size: 13px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+  }
+
+  /* Statement style ends here */
+
+  .industry p {
+    font-size: 142px;
+    line-height: 25px;
+  }
+
+  .card p {
+    text-align: justify !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+
+  .clientele h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .clientele p {
+    font-size: 13px !important;
+    line-height: 24px !important;
+  }
+
+  .our-srv h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 27px;
+  }
+
+  .our-srv p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center !important;
+    font-size: 12px !important;
+  }
+
+  .how-work h2 {
+    font-family: "Montserrat", sans-serif;
+    color: lightgray;
+    line-height: 50px;
+  }
+
+  .how-work h1 {
+    font-family: "Black Han Sans", sans-serif;
+    color: rgb(254, 254, 254);
+  }
+
+  .how-work p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100 !important;
+    color: rgb(221, 221, 221);
+    font-size: 13px !important;
+  }
+
+  .more-kit a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 14px !important;
+  }
+
+  .more-kit a:hover {
+    color: rgb(232, 10, 10) !important;
+    border-bottom: 1px solid black;
+  }
+
+  .youtube-container {
+    width: 370px !important;
+    height: 200px !important;
+  }
+
+  .customer-success h1 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background-color: rgb(23, 6, 6);
+  }
+
+  .elevate h2 {
+    text-align: center !important;
+  }
+
+  .elevate p {
+    text-align: center !important;
+  }
+
+  .testimonial {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .contact h2 {
+    font-size: 24px !important;
+    line-height: 24px !important;
+  }
+
+  .contact h3 {
+    font-size: 15px !important;
+    margin-bottom: 10px;
+    line-height: 24px !important;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer h5 {
+    text-decoration: none;
+    color: ghostwhite !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
+  .footer a {
+    font-size: 15px !important;
+    line-height: 27px !important;
+  }
+
+  .add {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 20px;
+  }
+
+  .add p {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Inudtry Success */
+
+  .industry {
+    color: #000080;
+  }
+  .hero {
+    background-color: green !important  ;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    color: white;
+  }
+
+  .hero h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .slide-row {
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+  }
+
+  .slide-col {
+    width: 800px;
+    height: 400px;
+    position: relative;
+  }
+
+  .user-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  .user-img img {
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .user-text {
+    background: #ffffff;
+    width: 520px;
+    height: 370px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: black;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  .user-text p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .user-text h3 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .slide-container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+  }
+
+  .ind {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .indicator .active {
+    width: 45px;
+  }
+
+  .testimonial {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+}
