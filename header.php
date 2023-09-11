@@ -129,12 +129,12 @@
                   Industries
                 </a>
                 <ul class="dropdown-menu" style="height: auto; background-color: #285a94;">
-                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Primary Sector</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Law Enforcement Agency</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Mining Oil & Gas</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Construction & Engineering</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Manufacturing</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Utilities</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php">Primary Sector</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php">Law Enforcement Agency</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php">Mining Oil & Gas</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php">Construction & Engineering</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php">Manufacturing</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php">Utilities</a></li>
                   <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php" style="color: blue;">View all Industries</a></li>
                 </ul>
               </li>
