@@ -153,14 +153,14 @@
                   <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="lone.php">Lone Worker</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em; text-decoration: underline;"class="dropdown-item fw-bold" href="iot.php" style="color: red;">Deep Learning IoT and Data Encryption</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">DIALSAFE</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">I-Secure</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">I-Dial</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">I-Track</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">Dial-ThreatHunter</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">InstaDial</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">Plume Model</a></li>
-                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">Api Library</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#dialsafe" style="color: blue;">DIALSAFE</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#i-secure" style="color: blue;">I-Secure</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#i-dial" style="color: blue;">I-Dial</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#i-track" style="color: blue;">I-Track</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#dial-threat-hunter" style="color: blue;">Dial-ThreatHunter</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#instadial" style="color: blue;">InstaDial</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#plume" style="color: blue;">Plume Model</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="iot.php#api-library" style="color: blue;">Api Library</a></li>
             
 
                 </ul>

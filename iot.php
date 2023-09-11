@@ -97,7 +97,7 @@
 
 
     <!-- Unveiling Emergency Control -->
-    <section class="unveiling p-4" style="background-color: white;">
+    <section class="unveiling p-4" style="background-color: white;" id="dialsafe">
         <div class="container p-4" style="background-color: white;">
             <div class="row">
                 <div class="col-lg-12 d-flex align-items-center">
@@ -214,7 +214,7 @@
 
 
     <!-- Dial 24/7 Emergency Response Functionality Orchestrating Safety -->
-    <section class="dial p-4 d-none d-sm-block">
+    <section class="dial p-4 d-none d-sm-block" id="i-secure">
         <div class="container bg-white">
             <div class="row p-4">
 
@@ -262,7 +262,7 @@
 
             </div>
 
-            <div class="row shadow-lg p-4 shadow-lg" style="background-color: navy; font-family: 'Montserrat';">
+            <div id="i-dial" class="row shadow-lg p-4 shadow-lg" style="background-color: navy; font-family: 'Montserrat';">
                 
                 <div class="col-lg-12" data-aos="fade-up" style="background-color: navy;">
 
@@ -311,7 +311,7 @@
     </section>
 
     <!-- Dial 24/7 Emergency Response Functionality Orchestrating Safety MObileOnly View-->
-    <section class="show-more p-4 d-block d-sm-none">
+    <section id="i-secure" class="show-more p-4 d-block d-sm-none">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12" style="background-color: black !important;">
@@ -359,7 +359,7 @@
         </div>
     </section>
 
-    <section class="show-more-2 p-4 d-block d-sm-none">
+    <section id="i-dial" class="show-more-2 p-4 d-block d-sm-none">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12  shadow-lg">
@@ -409,7 +409,7 @@
 
     
     <!-- Dial 24/7 Emergency Response Functionality Orchestrating Safety -->
-    <section class="dial p-4  d-none d-sm-block" style="background-color: navy; font-family: 'Montserrat', sans-serif;">
+    <section id="dial-threat-hunter" class="dial p-4  d-none d-sm-block" style="background-color: navy; font-family: 'Montserrat', sans-serif;">
         <div class="container">
             <div class="row">
 
@@ -458,7 +458,7 @@
 
             </div>
 
-            <div class="row" style="background-color: black; color: white;">
+            <div class="row" id="i-track" style="background-color: black; color: white;">
                 
                 <div class="col-lg-12 p-sm-5">
 
@@ -511,7 +511,7 @@
     </section>
 
      <!-- Dial 24/7 Emergency Response Functionality Orchestrating Safety MObileOnly View TWo-->
-    <section class="show-more-3 p-4 d-block d-sm-none" style="background-color: navy;">
+    <section id="instadial" class="show-more-3 p-4 d-block d-sm-none" style="background-color: navy;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 bg-warning">
@@ -575,7 +575,7 @@
     </section>
 
      <!-- Dial 24/7 Emergency Response Functionality Orchestrating Safety MObileOnly View TWo-->
-    <section class="show-more-4 p-4 d-block d-sm-none">
+    <section id="plume" class="show-more-4 p-4 d-block d-sm-none">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 bg-body-tertiary">
@@ -628,7 +628,7 @@
         </div>
     </section>
 
-    <section class="show-more-7 px-4 d-block d-sm-none py-5">
+    <section id="instadial" class="show-more-7 px-4 d-block d-sm-none py-5">
         <div class="container">
 
             <div class="row">
@@ -762,7 +762,7 @@
               </div>
 
             </div>
-            <div class="row">
+            <div class="row" id="plume">
                 <div class="col-lg-12 bg-body-tertiary shadow-lg">
                     <div id="container-5">
 
@@ -804,7 +804,7 @@
         </div>
     </section>
 
-    <section class="show-more-6 px-4 d-block d-sm-none" style="background-color: black;">
+    <section id="api-library" class="show-more-6 px-4 d-block d-sm-none" style="background-color: black;">
         <div class="container pb-5">
 
             <div class="row">
@@ -865,7 +865,7 @@
 
 
 
-    <section class="dial p-4 d-none d-sm-block" style="background-color: white !important; font-family: 'Montserrat', sans-serif;">
+    <section id="instadial"  class="dial p-4 d-none d-sm-block" style="background-color: white !important; font-family: 'Montserrat', sans-serif;">
         <div class="container bg-navy">
             <div class="row p-4 shadow-lg">
 

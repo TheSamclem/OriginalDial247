@@ -15,14 +15,14 @@
                 <h1>Data Encryption</h1>
                 
                     <p><a href="iot.php">Deep learning IoT and Data</a></p>
-                    <p><a href="#">DIALSAFE</a></p>
-                    <p><a href="#">I-Secure</a></p>
-                    <p><a href="#">I-Dial</a></p>
-                    <p><a href="#">I-Track</a></p>
-                    <p><a href="#">Dial-ThreatHunter</a></p>
-                    <p><a href="#">InstaDial</a></p>
-                    <p><a href="#">Plume Model</a></p>
-                    <p><a href="#">Api Library</a></p>
+                    <p><a href="iot.php#dialsafe">DIALSAFE</a></p>
+                    <p><a href="iot.php#i-secure">I-Secure</a></p>
+                    <p><a href="iot.php#i-dial">I-Dial</a></p>
+                    <p><a href="iot.php#i-track">I-Track</a></p>
+                    <p><a href="iot.php#dial-threat-hunter">Dial-ThreatHunter</a></p>
+                    <p><a href="iot.php#instadial">InstaDial</a></p>
+                    <p><a href="iot.php#plume">Plume Model</a></p>
+                    <p><a href="iot.php#api-library">Api Library</a></p>
             </div>
             <div id="contact">
                 <p>Email: <a href="mailto:<?php echo $social[0]['email']  ?>">
