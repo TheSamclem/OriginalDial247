@@ -98,6 +98,13 @@
     <!-- Bootstrap CDN link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Dial Safe</title>
+    <?php
+    foreach ($scripts as $script) {
+      echo $script['code'];
+   
+  }
+  
+  ?>
 </head>
 <body>
 
